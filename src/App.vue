@@ -3,10 +3,12 @@
     <h2>My Friends</h2>
     <ul>
         <friend-contact
-            name="Taufan Prasetyo"
-            phone-number="123 1234"        
-            email-address="taufan@mail.com"
-            is-favorite="1"
+            v-for="friend in friends"
+            :key="friend.id"
+            :name="friend.name"
+            :phone-number="friend.phone"
+            :email-address="friend.email"
+            :is-favorite="true"
         ></friend-contact>
     </ul>
   </section>
