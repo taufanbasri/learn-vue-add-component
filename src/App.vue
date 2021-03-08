@@ -6,6 +6,7 @@
             name="Taufan Prasetyo"
             phone-number="123 1234"        
             email-address="taufan@mail.com"
+            is-favorite="1"
         ></friend-contact>
     </ul>
   </section>
