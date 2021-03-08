@@ -2,7 +2,7 @@
   <section>
     <h2>My Friends</h2>
     <ul>
-        <li v-for="friend in friends" :key="friend.id">{{ friend.name }}</li>
+        <friend-contact></friend-contact>
     </ul>
   </section>
 </template>
@@ -31,5 +31,5 @@ export default {
 </script>
 
 <style>
-
+    @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 </style>
