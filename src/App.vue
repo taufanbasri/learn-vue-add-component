@@ -2,7 +2,11 @@
   <section>
     <h2>My Friends</h2>
     <ul>
-        <friend-contact></friend-contact>
+        <friend-contact
+            name="Taufan Prasetyo"
+            phone-number="123 1234"        
+            email-address="taufan@mail.com"
+        ></friend-contact>
     </ul>
   </section>
 </template>
